@@ -1,0 +1,17 @@
+//contextmenu
+.p-contextmenu {
+  border-radius: $borderRadius;
+
+  .p-submenu-list {
+    border-radius: $borderRadius;
+  }
+
+  .p-menuitem-link {
+    border: $menuitemBorder;
+
+    &:focus {
+      border-color: $menuitemFocusBorderColor;
+    }
+  }
+}
+

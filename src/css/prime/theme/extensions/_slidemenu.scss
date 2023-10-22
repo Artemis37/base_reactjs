@@ -1,0 +1,11 @@
+//slidemenu
+.p-slidemenu {
+  .p-menuitem-link {
+    border: $menuitemBorder;
+
+    &:focus {
+      border-color: $menuitemFocusBorderColor;
+    }
+  }
+}
+

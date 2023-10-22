@@ -1,0 +1,15 @@
+//menu
+.p-menu {
+  .p-submenu-header {
+    font-size: $submenuHeaderFontSize;
+  }
+
+  .p-menuitem-link {
+    border: $menuitemBorder;
+
+    &:focus {
+      border-color: $menuitemFocusBorderColor;
+    }
+  }
+}
+

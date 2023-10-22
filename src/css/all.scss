@@ -1,0 +1,27 @@
+@import 'primereact/resources/primereact.min.css';
+@import 'primeicons/primeicons.css';
+@import 'prime/layout-light.scss';
+@import 'prime/theme-light.scss';
+
+@import './pages/vanBangBanSao.scss';
+@import './pages/chungNhan.scss';
+
+:root {
+  --blue-900: #0051e9;
+  --yellow-500: #f6d365;
+}
+
+.required:after {
+  content: '(*)';
+  color: red;
+}
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 1400px) {
+  .vanbang-seacher-cotainer {
+    flex-direction: column;
+  }
+}
+
