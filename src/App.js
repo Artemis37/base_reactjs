@@ -69,7 +69,8 @@ const App = (props) => {
         {
             label: 'Favorites',
             icon: 'pi pi-home',
-            items: [{ label: 'Dashboard', icon: 'pi pi-home', to: '/' }]
+            items : null,
+            // items: [{ label: 'Dashboard', icon: 'pi pi-home', to: '/', visible: false }]
         },
         {
             label: 'UI Kit',
@@ -491,7 +492,7 @@ const App = (props) => {
                     resetActiveIndex={resetActiveIndex}
                 />
 
-                <AppBreadcrumb routes={routes} onMenuButtonClick={onMenuButtonClick} menuMode={menuMode} onRightMenuButtonClick={onRightMenuButtonClick} onInputClick={onInputClick} searchActive={searchActive} breadcrumbClick={breadcrumbClick} />
+                {/* <AppBreadcrumb routes={routes} onMenuButtonClick={onMenuButtonClick} menuMode={menuMode} onRightMenuButtonClick={onRightMenuButtonClick} onInputClick={onInputClick} searchActive={searchActive} breadcrumbClick={breadcrumbClick} /> */}
 
                 <div className="layout-main-content">
                     <Routes>

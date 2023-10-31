@@ -253,7 +253,7 @@ p:last-child {
 .layout-topbar {
   z-index: 100;
   border-radius: 0 0 20px 20px;
-  padding: 0 10px;
+  padding:  10px;
   display: flex;
   flex-wrap: wrap;
   min-height: 4em;
@@ -942,7 +942,7 @@ body a, body button {
 }
 @media (min-width: 992px) {
   .layout-wrapper.layout-horizontal .layout-menu-wrapper {
-    display: none;
+    /* display: none; */
   }
   .layout-wrapper.layout-horizontal .layout-topbar .layout-topbar-left {
     display: flex;
@@ -1701,7 +1701,7 @@ body a, body button {
 
 .layout-footer {
   height: 4rem;
-  padding: 0 2rem;
+  padding: 0 3rem;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;

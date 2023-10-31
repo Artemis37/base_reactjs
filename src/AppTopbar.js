@@ -14,17 +14,18 @@ const AppTopbar = (props) => {
         <>
             <div className="layout-topbar">
                 <div className="layout-topbar-left">
-                    <button className="topbar-menu-button p-link" onClick={props.onMenuButtonClick}>
+                    {/* <button className="topbar-menu-button p-link" onClick={props.onMenuButtonClick}>
                         <i className="pi pi-bars"></i>
-                    </button>
+                    </button> */}
 
                     <button className="logo p-link" onClick={() => navigate('/')}>
-                        <img src={`assets/layout/images/logo-${props.colorScheme === 'light' ? 'dark' : 'light'}.png`} alt="logo" />
+                        {/* <img src={`assets/layout/images/logo-${props.colorScheme === 'light' ? 'dark' : 'light'}.png`} alt="logo" /> */}
+                        <img src="https://assets.website-files.com/5bd86c52b7abc5114b2ed43c/5bd8aad816e1ead4175ca869_Logo.png" alt=""></img>
                     </button>
 
-                    <button className="p-link" onClick={() => navigate('/')}>
+                    {/* <button className="p-link" onClick={() => navigate('/')}>
                         <img src={`assets/layout/images/appname-${props.colorScheme === 'light' ? 'dark' : 'light'}.png`} className="app-name" alt="app-name" />
-                    </button>
+                    </button> */}
                 </div>
 
                 <AppMenu
@@ -70,7 +71,7 @@ const AppTopbar = (props) => {
                                 </li>
                             </ul>
                         </li>
-                        <li>
+                        {/* <li>
                             <button className="p-link">
                                 <i className="topbar-icon pi pi-fw pi-bell"></i>
                                 <span className="topbar-badge">2</span>
@@ -83,7 +84,7 @@ const AppTopbar = (props) => {
                                 <span className="topbar-badge">5</span>
                                 <span className="topbar-item-name">Messages</span>
                             </button>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>
